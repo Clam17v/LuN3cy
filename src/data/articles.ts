@@ -302,7 +302,7 @@ export const ARTICLE_DATA = [
       title: 'Md2Design: A Simple and Beautiful Markdown to Graphic Card Generator',
     }
   },
-    {
+  {
     id: 'a19',
     common: {
       category: ArticleCategory.DIT,
@@ -315,6 +315,21 @@ export const ARTICLE_DATA = [
     },
     en: {
       title: 'Weekly Report | 25/12/08~25/12/14',
+    }
+  },
+  {
+    id: 'a20',
+    common: {
+      category: ArticleCategory.DIT,
+      link: 'https://mp.weixin.qq.com/s/ARt6U27GO8xowhiGTxBPrQ',
+      coverImage: 'https://mmbiz.qpic.cn/mmbiz_png/MpZIibj0bjSzib0iaKOoXAGBbvV24K0pBso56xyzSY0wDsNPrNazGld9945UvSKCTTrO5vxLVvEe9QaLO8oSBQ6jg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=1',
+      date: '2025-12-17'
+    },
+    zh: {
+      title: '干飞我的毕设：「CineViz」，Gemini3计量电影小工具实战',
+    },
+    en: {
+      title: 'Smash My Old Design: CineViz, A Movie Tool Utilizing Gemini3 for Data Analysis',
     }
   },
   {
