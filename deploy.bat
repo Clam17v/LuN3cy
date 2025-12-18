@@ -1,6 +1,6 @@
 @echo off
 echo ========================================================
-echo       LuN3cy Website Content Update Helper
+echo       Clam17v Website Content Update Helper
 echo ========================================================
 echo.
 echo This script will help you upload your changes to GitHub.
@@ -61,7 +61,7 @@ echo.
 echo ========================================================
 echo Success! Your changes have been pushed.
 echo Please wait 1-3 minutes for GitHub Pages to update.
-echo You can check progress at: https://github.com/LuN3cy/LuN3cy/actions
+echo You can check progress at: https://github.com/Clam17v/Clam17v/actions
 echo ========================================================
 echo.
 pause

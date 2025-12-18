@@ -22,7 +22,7 @@ export const ARTICLE_DATA = [
     common: {
       category: ArticleCategory.DIT,
       link: 'https://mp.weixin.qq.com/s/ifDrWOJQ3Pqhf1_siCM9mg',
-      coverImage: 'https://lun3cy.notion.site/image/attachment%3A9fbcf761-fe09-4bd6-b0f9-5acd3eb98e1e%3A%E5%B0%81%E9%9D%A2.png?table=block&id=2c1f4f61-90b0-802f-b73f-cce1357afe89&spaceId=bfa23b18-0167-4223-aea0-06f1efb0e882&width=1420&userId=&cache=v2', // No cover provided
+      coverImage: 'https://Clam17v.notion.site/image/attachment%3A9fbcf761-fe09-4bd6-b0f9-5acd3eb98e1e%3A%E5%B0%81%E9%9D%A2.png?table=block&id=2c1f4f61-90b0-802f-b73f-cce1357afe89&spaceId=bfa23b18-0167-4223-aea0-06f1efb0e882&width=1420&userId=&cache=v2', // No cover provided
       date: '2025-12-03'
     },
     zh: {

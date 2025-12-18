@@ -8,7 +8,7 @@ export const DEV_DATA: Project[] = [
       image: '', // Placeholder
       icon: 'message-circle',
       websiteUrl: 'https://wechat-msganalysis-krgkfhfdcxwmtwst4jc4bw.streamlit.app/',
-      githubUrl: 'https://github.com/LuN3cy/WeChat-MsgAnalysis'
+      githubUrl: 'https://github.com/Clam17v/WeChat-MsgAnalysis'
     },
     zh: {
       title: '微信聊天记录数据分析',
@@ -33,8 +33,8 @@ export const DEV_DATA: Project[] = [
       category: 'Development',
       image: '', // Placeholder
       icon: 'id-card',
-      websiteUrl: 'https://lun3cy.github.io/LUNA-Badge/',
-      githubUrl: 'https://github.com/LuN3cy/LUNA-Badge'
+      websiteUrl: 'https://Clam17v.github.io/LUNA-Badge/',
+      githubUrl: 'https://github.com/Clam17v/LUNA-Badge'
     },
     zh: {
       title: '工牌生成器',
@@ -59,8 +59,8 @@ export const DEV_DATA: Project[] = [
       category: 'Development',
       image: '', // Placeholder
       icon: 'file-text',
-      websiteUrl: 'https://lun3cy.github.io/Md2Design/',
-      githubUrl: 'https://github.com/LuN3cy/Md2Design'
+      websiteUrl: 'https://Clam17v.github.io/Md2Design/',
+      githubUrl: 'https://github.com/Clam17v/Md2Design'
     },
     zh: {
       title: 'Md2Design',
@@ -85,8 +85,8 @@ export const DEV_DATA: Project[] = [
       category: 'Development',
       image: '', // Placeholder
       icon: 'film',
-      websiteUrl: 'https://lun3cy.github.io/CineViz/',
-      githubUrl: 'https://github.com/LuN3cy/CineViz'
+      websiteUrl: 'https://Clam17v.github.io/CineViz/',
+      githubUrl: 'https://github.com/Clam17v/CineViz'
     },
     zh: {
       title: 'CineViz',
