@@ -16,14 +16,14 @@ export interface HomeContent {
 export const HOME_DATA: Record<Language, HomeContent> = {
   zh: {
     heroItems: [
-      { text: "摄影摄像", annotation: "（作品积累较多）", category: Category.VIDEO },
-      { text: "平面交互", annotation: "（当前主攻，兴趣所在）", category: Category.DESIGN },
-      { text: "应用开发", annotation: "（vibe builder）", category: Category.DEV },
+      { text: "平面设计", annotation: "（Graphic Design）", category: Category.VIDEO },
+      { text: "LORA训练", annotation: "（LORA Training）", category: Category.DESIGN },
+      { text: "AI视频", annotation: "（AI video）", category: Category.DEV },
       { text: "炒粉炒饭", annotation: "（还在学）", category: null }
     ],
-    intro: "不懂设计的摄影师不是一个好的产品经理。|边学边做，MVP生活，迈向全栈，但更看重实际价值。",
+    intro: "设计不止于解决问题，是进一步要把问题解决的更好；|设计不至于满足需求，还需令人有更美好的满足。",
     selectedWorks: "精选作品",
-    years: "[ 2021 — 2025 ]"
+    years: "[ 2025 ]"
   },
   en: {
     heroItems: [
