@@ -1,4 +1,4 @@
-# Hi there, I'm Clam17v Fan 👋
+# Hi there, I'm Calm17v Fan 👋
 
 > "A photographer who doesn't understand design is not a good product manager."
 >
@@ -21,10 +21,10 @@ I'm a creator based in **Zhuhai, Guangdong**, focusing on Videography, Design, a
 
 ## 📫 Connect with Me
 
-*   **WeChat Official/公众号**: Clam17v的实验房
-*   **RED/小红书**: Clam17v
-*   **Bilibili**: [Clam17v](https://space.bilibili.com/13573186)
-*   **500px**: [Clam17v](https://500px.com.cn/Clam17v)
+*   **WeChat Official/公众号**: Calm17v的实验房
+*   **RED/小红书**: Calm17v
+*   **Bilibili**: [Calm17v](https://space.bilibili.com/13573186)
+*   **500px**: [Calm17v](https://500px.com.cn/Calm17v)
 
 ---
 

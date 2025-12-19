@@ -27,14 +27,14 @@ export const CONTACT_DATA: Record<Language, ContactContent> = {
     locationValue: "广东，珠海",
     contactLabel: "取得联系",
     emailMeLabel: "邮箱",
-    email: "Clam17v@126.com",
+    email: "Calm17v@126.com",
     hello: "你好 ;-)",
     intro: "欢迎探讨与合作。",
     socials: {
-      wechat: "Clam17v的实验房",
-      xiaohongshu: "Clam17v",
-      bilibili: "Clam17v",
-      px500: "Clam17v"
+      wechat: "Calm17v的实验房",
+      xiaohongshu: "Calm17v",
+      bilibili: "Calm17v",
+      px500: "Calm17v"
     },
     githubLabel: "GitHub",
     footerDesign: "Powered by Gemini 3 Pro"
@@ -44,14 +44,14 @@ export const CONTACT_DATA: Record<Language, ContactContent> = {
     locationValue: "Zhuhai, Guangdong",
     contactLabel: "Get in touch",
     emailMeLabel: "Email Me",
-    email: "Clam17v@126.com",
+    email: "Calm17v@126.com",
     hello: "Hello ;-)",
     intro: "Welcome to discuss & cooperate.",
     socials: {
-      wechat: "Clam17v's Lab",
-      xiaohongshu: "Clam17v",
-      bilibili: "Clam17v",
-      px500: "Clam17v"
+      wechat: "Calm17v's Lab",
+      xiaohongshu: "Calm17v",
+      bilibili: "Calm17v",
+      px500: "Calm17v"
     },
     githubLabel: "GitHub",
     footerDesign: "Powered by Gemini 3 Pro"

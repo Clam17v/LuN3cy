@@ -1,6 +1,6 @@
 @echo off
 echo ========================================================
-echo       Clam17v Image Compressor Tool
+echo       Calm17v Image Compressor Tool
 echo ========================================================
 echo.
 echo This tool scans your photography folder and automatically 
