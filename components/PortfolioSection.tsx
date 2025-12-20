@@ -499,17 +499,6 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ language, ex
                                     </p>
                                 </div>
 
-                                {/* Tags */}
-                                <div className="space-y-4 flex-1 min-w-[200px]">
-                                    <h4 className="text-base font-bold uppercase text-gray-400 dark:text-gray-500 tracking-wider">Tags</h4>
-                                    <div className="flex flex-wrap gap-2">
-                                        {displayProject.tags.map(tag => (
-                                            <span key={tag} className="text-xs font-bold font-mono text-gray-500 border border-gray-300 dark:border-gray-700 px-3 py-1.5 rounded-lg">
-                                                {tag}
-                                            </span>
-                                        ))}
-                                    </div>
-                                </div>
 
                                 {/* Links */}
                                 {(displayProject.githubUrl || displayProject.websiteUrl) && (
