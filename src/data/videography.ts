@@ -5,7 +5,7 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v1',
     common: {
       category: 'Videography',
-      image: 'https://i0.hdslb.com/bfs/archive/9af1a5d76c3de63f4a2870659fcfb6401cdee842.jpg',
+      image: '/daguangrongtu.png',
       bilibiliId: 'BV1KD2iYBEjF'
     },
     zh: {
