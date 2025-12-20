@@ -466,21 +466,12 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ language, ex
 
                          {/* Right Col: Details */}
                          <div className="space-y-10">
-                            {/* Awards - Aligned Star */}
+                           
                             
 
                             {/* Role, Tags, Links - Flex Row */}
                             <div className="flex flex-col md:flex-row gap-8 items-start">
-                                {/* Role */}
-                                <div className="space-y-4 flex-1 min-w-[200px]">
-                                    <h4 className="text-base font-bold uppercase text-gray-400 dark:text-gray-500 tracking-wider">
-                                        {language === 'zh' ? '分工与职责' : 'Role & Responsibility'}
-                                    </h4>
-                                    <p className="text-base text-gray-600 dark:text-gray-400 leading-relaxed font-medium">
-                                        <span className="font-bold text-black dark:text-white block mb-1 text-lg">{displayProject.role}</span>
-                                        {displayProject.roleDetail}
-                                    </p>
-                                </div>
+                               
 
 
                                 {/* Links */}
