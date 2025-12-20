@@ -467,24 +467,7 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ language, ex
                          {/* Right Col: Details */}
                          <div className="space-y-10">
                             {/* Awards - Aligned Star */}
-                            {displayProject.awards && displayProject.awards.length > 0 && (
-                                <div className="space-y-4">
-                                  <h4 className="text-base font-bold uppercase text-gray-400 dark:text-gray-500 tracking-wider">
-                                    {language === 'zh' ? '获奖情况' : 'Awards & Recognition'}
-                                  </h4>
-                                  <ul className="space-y-3">
-                                        {displayProject.awards.map((award, i) => {
-                                          const isNone = award === "暂无获奖" || award === "无" || award === "None";
-                                          return (
-                                            <li key={i} className={`flex items-baseline font-bold text-xl ${isNone ? 'text-gray-400 dark:text-gray-500' : 'text-black dark:text-white'}`}>
-                                              <span className={`mr-3 text-lg flex-shrink-0 ${isNone ? 'text-gray-300 dark:text-gray-600' : 'text-yellow-500'}`}>★</span> 
-                                              <span>{award}</span>
-                                            </li>
-                                          );
-                                        })}
-                                  </ul>
-                                </div>
-                            )}
+                            
 
                             {/* Role, Tags, Links - Flex Row */}
                             <div className="flex flex-col md:flex-row gap-8 items-start">
