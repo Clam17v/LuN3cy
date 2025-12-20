@@ -85,15 +85,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
           {/* Controls: Language & Theme & Gravity */}
           <div className="flex items-center gap-2 md:gap-4 shrink-0">
              {/* Language Toggle */}
-             <button
-               onClick={toggleLanguage}
-               className="p-1 md:p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-black dark:text-white flex items-center gap-1"
-               title="Switch Language"
-             >
-               <Globe size={20} className="md:w-6 md:h-6" />
-               <span className="text-base md:text-lg font-bold">{language === 'zh' ? 'EN' : '中'}</span>
-             </button>
-
              {/* Theme Toggle */}
              <button 
                onClick={toggleTheme}
