@@ -367,68 +367,14 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ language, ex
                  ) : (
                     // DEFAULT LAYOUT FOR OTHER CATEGORIES
                     <>
-                     {/* Hero Media (Video, Bilibili, Figma or Image) */}
-                     <div className={`
-                        w-full bg-gray-200 dark:bg-gray-800 relative group-modal-media shrink-0
-                        ${(displayProject.figmaUrl || displayProject.websiteUrl) ? 'h-[60vh] md:h-[80vh]' : 
-                          (displayProject.videoUrl || displayProject.bilibiliId) ? 'aspect-video' : 
-                          'h-[30vh] md:h-[50vh]'}
-                     `}>
-                        {displayProject.videoUrl ? (
-                           <video 
-                              src={displayProject.videoUrl} 
-                              controls 
-                              className="w-full h-full object-contain bg-black"
-                              poster={displayProject.image}
-                           />
-                        ) : displayProject.bilibiliId ? (
-                           // Bilibili Player with Click-to-Load Optimization
-                           <div className="w-full h-full bg-black relative group">
-                                <iframe
-                                    src={`https://player.bilibili.com/player.html?bvid=${displayProject.bilibiliId}&page=1&high_quality=1&danmaku=0&autoplay=0`}
-                                    className="w-full h-full relative z-10"
-                                    scrolling="no"
-                                    frameBorder="0"
-                                    allowFullScreen
-                                    sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-presentation"
-                                ></iframe>
-                           </div>
-                        ) : displayProject.figmaUrl ? (
-                           <iframe
-                             src={`https://www.figma.com/embed?embed_host=share&url=${encodeURIComponent(displayProject.figmaUrl)}`}
-                             className="w-full h-full border-none"
-                             allowFullScreen
-                           ></iframe>
-                        ) : displayProject.websiteUrl ? (
-                           <iframe
-                             src={displayProject.websiteUrl}
-                             className="w-full h-full border-none bg-white"
-                             title={displayProject.title}
-                             allowFullScreen
-                           ></iframe>
-                        ) : (
-                           <>
-                              {displayProject.image && !displayProject.image.includes('picsum') ? (
-                                  <img 
-                                    src={displayProject.image} 
-                                    alt={displayProject.title} 
-                                    referrerPolicy="no-referrer"
-                                    className="w-full h-full object-cover" 
-                                  />
-                              ) : (
-                                  <div className="w-full h-full flex items-center justify-center bg-gray-300 dark:bg-gray-800">
-                                      <div className="text-center">
-                                          <h2 className="text-4xl font-black text-black/20 dark:text-white/20 mb-2">{displayProject.title}</h2>
-                                          <p className="text-xl font-bold text-black/20 dark:text-white/20 uppercase tracking-widest">
-                                              {language === 'zh' ? '预览部署中...' : 'Preview Deploying...'}
-                                          </p>
-                                      </div>
-                                  </div>
-                              )}
-                              <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/50 to-transparent pointer-events-none"></div>
-                           </>
-                        )}
-                     </div>
+                    {/* ✅ 智能版：自动读取当前项目的图片 */}
+<div className="w-full h-[30vh] md:h-[60vh] bg-gray-100 flex items-center justify-center shrink-0">
+    <img 
+        src={displayProject.image}   {/* 👈 重点：这里不再是文件名，而是变量 */}
+        alt={displayProject.title} 
+        className="w-full h-full object-contain" 
+    />
+</div>
 
                      <div className="p-6 md:p-12">
                        {/* Header */}
