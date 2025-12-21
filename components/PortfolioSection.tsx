@@ -365,8 +365,6 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ language, ex
                         })()}
                     </div>
                  ) : (
-                    // DEFAULT LAYOUT FOR OTHER CATEGORIES
-                    <>
                     {/* ✅ 智能版：自动读取当前项目的图片 */}
 <div className="w-full h-[30vh] md:h-[60vh] bg-gray-100 flex items-center justify-center shrink-0">
     <img 
