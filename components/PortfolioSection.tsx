@@ -365,14 +365,22 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ language, ex
                         })()}
                     </div>
                  ) : (
-                    {/* ✅ 智能版：自动读取当前项目的图片 */}
-<div className="w-full h-[30vh] md:h-[60vh] bg-gray-100 flex items-center justify-center shrink-0">
-    <img 
-        src={displayProject.image}   {/* 👈 重点：这里不再是文件名，而是变量 */}
-        alt={displayProject.title} 
-        className="w-full h-full object-contain" 
-    />
-</div>
+                    // DEFAULT LAYOUT FOR OTHER CATEGORIES
+                    <>
+                    {/* ✅ Hero Media: 已改为强制显示图片 */}
+                     <div className="w-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center shrink-0 min-h-[30vh]">
+                        {displayProject.image ? (
+                          <img 
+                            src={displayProject.image} 
+                            alt={displayProject.title} 
+                            className="w-full h-auto max-h-[80vh] object-contain"
+                            referrerPolicy="no-referrer"
+                          />
+                        ) : (
+                          /* 防止没有图片时一片空白，显示一个简单的占位 */
+                          <div className="p-10 text-gray-400">暂无图片</div>
+                        )}
+                     </div>
 
                      <div className="p-6 md:p-12">
                        {/* Header */}

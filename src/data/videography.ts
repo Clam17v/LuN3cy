@@ -6,7 +6,7 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     common: {
       category: 'Videography',
       image: '/daguangrongtu.png',
-
+      bilibiliId: 'BV1KD2iYBEjF'
     },
     zh: {
       title: '产品溶图打光',
