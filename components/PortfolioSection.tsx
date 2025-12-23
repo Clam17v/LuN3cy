@@ -377,12 +377,16 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ language, ex
                     // DEFAULT LAYOUT FOR OTHER CATEGORIES
                     <>
                     {/* ✅ Hero Media: 优先显示 modalImage，如果没有就显示 image */}
-                     <div className="w-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center shrink-0 min-h-[30vh]">
-                        {/* 👇 这里改了逻辑：先找 modalImage，找不到再用 image */}
+                     {/* ✅ 终极版：去除所有限制，强制铺满 */}
+                     {/* 1. 去掉 flex, items-center, justify-center (这些会导致居中留白) */}
+                     {/* 2. 去掉 h-[30vh] 等高度限制 (这些会导致长图显示不全) */}
+                     <div className="w-full bg-gray-100 dark:bg-gray-800 shrink-0">
                         <img 
                             src={(displayProject as any).modalImage || displayProject.image} 
                             alt={displayProject.title} 
-                            className="w-full h-auto max-h-[80vh] object-contain"
+                            // ✅ w-full: 强制拉伸宽度到 100% (消灭左右空白)
+                            // ✅ block: 消除底部缝隙
+                            className="w-full h-auto block"
                             referrerPolicy="no-referrer"
                         />
                      </div>
