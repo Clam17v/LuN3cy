@@ -63,7 +63,8 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v3',
     common: {
       category: 'Videography',
-      image: 'https://i1.hdslb.com/bfs/archive/b905e0923346788d63571299af1cf07783f3a983.jpg',
+      image: '/shijiao1.png',
+      modalImage: '/shijiao.png',
       bilibiliId: 'BV1We41117v8'
     },
     zh: {
