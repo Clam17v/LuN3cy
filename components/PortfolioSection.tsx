@@ -344,13 +344,21 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ language, ex
                                                 setLightboxIndex(idx);
                                             }}
                                         >
-                                           <img 
-    src={(displayProject as any).modalImage || displayProject.image} 
-    alt={displayProject.title} 
-    // 👇 重点是这一行：去掉了 max-h-[80vh] 和 object-contain
-    className="w-full h-auto"
-    referrerPolicy="no-referrer"
-/>
+                                           {/* ✅ 最终修正版：长图专用布局 */}
+                     {/* 1. items-start: 让图片从顶部开始，而不是居中 */}
+                     {/* 2. 去掉了 min-h 和 fixed height，让图片高度自然撑开 */}
+                     <div className="w-full bg-gray-100 dark:bg-gray-800 flex items-start justify-center">
+                        <img 
+                            // 优先读取 modalImage，没有则读取 image
+                            src={(displayProject as any).modalImage || displayProject.image} 
+                            alt={displayProject.title} 
+                            // ✅ w-full: 强制宽度 100% 撑满容器
+                            // ✅ h-auto: 高度自动按比例延伸
+                            // ✅ block: 防止图片底部出现莫名其妙的 4px 空隙
+                            className="w-full h-auto block"
+                            referrerPolicy="no-referrer"
+                        />
+                     </div>
                                             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-200"></div>
                                         </div>
                                     ))}
