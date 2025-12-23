@@ -250,10 +250,13 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ language, ex
                onTouchMove={onTouchMove}
                onTouchEnd={onTouchEnd}
              >
-                <div 
-                  className="relative max-w-full max-h-full w-full h-full flex items-center justify-center animate-message-pop"
-                  onClick={(e) => e.stopPropagation()}
-                >
+                <div className={`
+  relative w-full max-w-[90vw] max-h-[90vh] overflow-y-auto no-scrollbar
+  bg-white dark:bg-gray-900 
+  rounded-[2rem] shadow-2xl border border-white/20 dark:border-white/10
+  flex flex-col
+  ${selectedProject ? 'animate-message-pop' : 'animate-message-pop-out'}
+`}>
                   <img 
                     src={currentGallery[lightboxIndex]} 
                     alt="Full View" 
