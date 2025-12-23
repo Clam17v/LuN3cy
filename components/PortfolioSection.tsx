@@ -344,15 +344,13 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ language, ex
                                                 setLightboxIndex(idx);
                                             }}
                                         >
-                                            <img 
-                                                src={item} 
-                                                alt={`${displayProject.title} ${idx + 1}`} 
-                                                loading="lazy"
-                                                decoding="async"
-                                                referrerPolicy="no-referrer"
-                                                className="w-full h-full object-cover transition-all duration-500 group-hover:scale-105 will-change-transform transform-gpu backface-hidden opacity-0" 
-                                                onLoad={(e) => e.currentTarget.classList.remove('opacity-0')}
-                                            />
+                                           <img 
+    src={(displayProject as any).modalImage || displayProject.image} 
+    alt={displayProject.title} 
+    // 👇 重点是这一行：去掉了 max-h-[80vh] 和 object-contain
+    className="w-full h-auto"
+    referrerPolicy="no-referrer"
+/>
                                             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-200"></div>
                                         </div>
                                     ))}
