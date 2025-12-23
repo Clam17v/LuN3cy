@@ -367,19 +367,15 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ language, ex
                  ) : (
                     // DEFAULT LAYOUT FOR OTHER CATEGORIES
                     <>
-                    {/* ✅ Hero Media: 已改为强制显示图片 */}
+                    {/* ✅ Hero Media: 优先显示 modalImage，如果没有就显示 image */}
                      <div className="w-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center shrink-0 min-h-[30vh]">
-                        {displayProject.image ? (
-                          <img 
-                            src={displayProject.image} 
+                        {/* 👇 这里改了逻辑：先找 modalImage，找不到再用 image */}
+                        <img 
+                            src={(displayProject as any).modalImage || displayProject.image} 
                             alt={displayProject.title} 
                             className="w-full h-auto max-h-[80vh] object-contain"
                             referrerPolicy="no-referrer"
-                          />
-                        ) : (
-                          /* 防止没有图片时一片空白，显示一个简单的占位 */
-                          <div className="p-10 text-gray-400">暂无图片</div>
-                        )}
+                        />
                      </div>
 
                      <div className="p-6 md:p-12">
