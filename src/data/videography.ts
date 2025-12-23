@@ -34,17 +34,18 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v2',
     common: {
       category: 'Videography',
-      image: 'https://i0.hdslb.com/bfs/archive/fca8e515a522bd07fe591fa6c30cd958fe761cd0.jpg',
+      image: '/motetihuan.png',
+      modalImage: '/tihuan.png',
       bilibiliId: 'BV1U24y1T7DP'
     },
     zh: {
-      title: '制衡',
-      subtitle: '纪录片',
-      description: '视觉化呈现中医（TCM）哲学。重点在于布光和固定镜头的构图。',
+      title: '模特产品替换',
+      subtitle: '平面设计',
+      description: '在保持模特表情姿势不变的情况下替换产品。',
       role: '摄影、剪辑、调色',
       tags: ['中医', '摄影'],
       awards: ["中南赛区一等奖"],
-      concept: "该项目我主要负责摄影，想尽可能地去模仿一些纪录片的镜头手法，追求稳定和规范的画面。灯光上，大范围使用侧光和三点布光，为画面营造明暗层次。色彩方面多为暖色主光源。",
+      concept: "初步选出替换区域进行遮罩，运用 confyui进行局部重绘完成产品的替换的同时。保持图片原本的特点要素",
       roleDetail: "负责全片摄影构图、MG动画制作，以及后期剪辑与调色工作。"
     },
     en: {
