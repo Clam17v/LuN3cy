@@ -92,13 +92,14 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v4',
     common: {
       category: 'Videography',
-      image: 'https://i1.hdslb.com/bfs/archive/3407a7d6d535c422658369516dde52c231403852.jpg',
+      image: '/ipsheji.png',
+      modalImage: '/ipsheji1.png'
       bilibiliId: 'BV1NiS1BFEhd'
     },
     zh: {
-      title: '想见到你',
-      subtitle: '微电影',
-      description: '一部青春剧情微电影，主要向观众展示武汉这座城市的美丽风景。',
+      title: '星际探索家IP设计',
+      subtitle: '平面设计',
+      description: '“当浩瀚宇宙遇上稚嫩好奇，孤独便化作了彩色的糖衣。”。',
       role: '摄影、调色',
       tags: ['微电影', '青春', '文旅'],
       awards: ["暂无获奖"],
