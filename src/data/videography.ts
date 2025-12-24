@@ -93,8 +93,7 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     common: {
       category: 'Videography',
       image: '/ipsheji.png',
-      modalImage: '/ipsheji1.png'
-      bilibiliId: 'BV1NiS1BFEhd'
+      modalImage: '/ipsheji1.png',
     },
     zh: {
       title: '星际探索家IP设计',
