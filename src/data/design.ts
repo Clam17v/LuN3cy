@@ -16,11 +16,11 @@ export const DESIGN_DATA: Project[] = [
     zh: {
       title: '复杂人物姿势控制',
       subtitle: '人物设计',
-      description: '新能源汽车（NEV）的人机交互界面设计。采用玻璃拟态和柔和渐变的“视觉减重”系统。',
+      description: '使用SD Contro Net精确控制人物姿势。',
       role: 'UI 设计师',
       tags: ['汽车', 'HMI', 'Figma'],
       awards: ["课程设计优秀作品"],
-      concept: "参考了很多车载HMI的设计，我决定设计一款“视觉减重”的系统：信息更加明确，配色更清新，提升驾驶者的舒适感。我参考了很多风格，比如扁平化。但我认为，在汽车这种强调即时与准确反馈的环境，交互系统视觉上需要一个强反馈感的设计。于是毛玻璃与轻拟物化成为了我的最终选择。",
+      concept: "Open Pose权重：1 Depth权重:0.7在控制姿势的同时保持人物设计的特点。",
       roleDetail: "独立完成从中控大屏到仪表盘的整套UI绘制与交互逻辑设计。"
     },
     en: {
