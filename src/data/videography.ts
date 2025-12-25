@@ -96,9 +96,9 @@ export const VIDEOGRAPHY_DATA: Project[] = [
       modalImage: '/ipsheji1.png',
     },
     zh: {
-      title: '星际探索家IP设计',
+      title: '星际探险家IP设计',
       subtitle: '平面设计',
-      description: '“当浩瀚宇宙遇上稚嫩好奇，孤独便化作了彩色的糖衣。”。',
+      description: '“当浩瀚宇宙遇上稚嫩好奇，孤独便化作了彩色的糖衣。”',
       role: '摄影、调色',
       tags: ['微电影', '青春', '文旅'],
       awards: ["暂无获奖"],
@@ -127,7 +127,7 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     zh: {
       title: '淘宝天猫圣诞节大促',
       subtitle: '平面设计',
-      description: '大广赛省一等奖作品，赤尾避孕套广告。',
+      description: '圣诞节电商海报 。',
       role: '导演、摄影、剪辑',
       tags: ['广告', '大广赛'],
       awards: ["大广赛省一等奖"],
