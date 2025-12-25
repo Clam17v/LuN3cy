@@ -120,12 +120,13 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v5',
     common: {
       category: 'Videography',
-      image: 'https://i1.hdslb.com/bfs/archive/b047057568890c630411f9c9642514bf06dcaa3c.jpg', 
+      image: '/shengdankv.png', 
+      modalImage: '/shengdankv1.png',
       bilibiliId: 'BV1WZ2xBaEjC'
     },
     zh: {
-      title: '瞬滑全场',
-      subtitle: '广告短片',
+      title: '淘宝天猫圣诞节大促',
+      subtitle: '平面设计',
       description: '大广赛省一等奖作品，赤尾避孕套广告。',
       role: '导演、摄影、剪辑',
       tags: ['广告', '大广赛'],
