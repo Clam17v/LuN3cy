@@ -341,5 +341,32 @@ export const VIDEOGRAPHY_DATA: Project[] = [
       roleDetail: ""
     }
   },
-  {}
+  {
+    id: 'v13',
+    common: {
+      category: 'Videography',
+      image: 'https://i0.hdslb.com/bfs/archive/397f468fd59ecef728a462d67c785a1efb0525aa.jpg', 
+      bilibiliId: 'BV1vH4y1e7hk'
+    },
+    zh: {
+      title: '海 | vol.1',
+      subtitle: '风景短片',
+      description: '关于大海的影像记录。',
+      role: '摄影',
+      tags: ['风景', '海'],
+      awards: [],
+      concept: "",
+      roleDetail: ""
+    },
+    en: {
+      title: 'Sea | vol.1',
+      subtitle: 'Landscape Short',
+      description: 'Visual record of the sea.',
+      role: 'Cinematographer',
+      tags: ['Landscape', 'Sea'],
+      awards: [],
+      concept: "",
+      roleDetail: ""
+    }
+  }
 ];
