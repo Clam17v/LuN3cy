@@ -5,8 +5,8 @@ export const DESIGN_DATA: Project[] = [
     id: 'd1',
     common: {
       category: 'Graphics & UI',
-      image: 'https://www.figma.com/file/cRFVFLypB290MP6ImMgiPd/thumbnail?ver=thumbnails/86fca228-9e5a-4b50-bc1e-8bb31f33edb9',
-      figmaUrl: 'https://www.figma.com/design/cRFVFLypB290MP6ImMgiPd/%E5%A4%A7%E5%B9%BF%E8%B5%9B-%7C-%E5%8D%B3%E6%97%B6%E8%AE%BE%E8%AE%A1-%E5%BE%81%E8%BE%B0%C2%B7HMI%E6%99%BA%E8%83%BD%E5%BA%A7%E8%88%B1%E8%AE%BE%E8%AE%A1?node-id=55-2&t=7dPgyLMJDD32pFp4-1', 
+      image: '/kongzhi.png', 
+      modalImage: '/kongzhi1.png',
       gallery: [
         'https://picsum.photos/800/600?random=11',
         'https://picsum.photos/800/600?random=12',
@@ -14,8 +14,8 @@ export const DESIGN_DATA: Project[] = [
       ]
     },
     zh: {
-      title: '征辰 HMI 设计',
-      subtitle: 'UI/UX 设计',
+      title: '复杂人物姿势控制',
+      subtitle: '人物设计',
       description: '新能源汽车（NEV）的人机交互界面设计。采用玻璃拟态和柔和渐变的“视觉减重”系统。',
       role: 'UI 设计师',
       tags: ['汽车', 'HMI', 'Figma'],
