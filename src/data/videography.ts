@@ -149,13 +149,14 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v6',
     common: {
       category: 'Videography',
-      image: 'https://i0.hdslb.com/bfs/archive/486455e1c101cadcff46566384bf184275bdaafb.jpg', 
+      image: '/jingmian.png', 
+      modalImage: '/3dlei.png',
       bilibiliId: 'BV1J5S7B6ECM'
     },
     zh: {
-      title: '华中师大 2021级播主毕业晚会 串场视频',
-      subtitle: '串场视频',
-      description: '华中师范大学2021级播音与主持艺术专业毕业晚会串场视频。',
+      title: '3D建模',
+      subtitle: 'c4d',
+      description: '',
       role: '视频制作',
       tags: ['毕业晚会', '串场视频'],
       awards: [],
