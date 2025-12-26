@@ -149,7 +149,7 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v6',
     common: {
       category: 'Videography',
-      image: '/jingmian.png', 
+      image: '/jingmian.jpg', 
       modalImage: '/3dlei.png',
       bilibiliId: 'BV1J5S7B6ECM'
     },
