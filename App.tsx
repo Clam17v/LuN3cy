@@ -571,7 +571,7 @@ function App() {
                  {/* Socials - 500px */}
                  <div 
                     className="block p-12 border-2 border-gray-100 dark:border-gray-800 rounded-[2rem] hover:border-black dark:hover:border-white transition-colors duration-300 group cursor-pointer relative"
-
+                    onClick={() => window.open('、')}
                     onMouseEnter={(e) => {
                        const tooltip = document.getElementById('px-tooltip');
                        if (tooltip) {
@@ -621,7 +621,7 @@ function App() {
                  {/* GitHub */}
                  <div 
                     className="block p-12 border-2 border-gray-100 dark:border-gray-800 rounded-[2rem] relative group cursor-pointer hover:border-black dark:hover:border-white transition-colors duration-300"
-                    
+                    onClick={() => window.open('')}
                  >
                     <Github size={48} className="mx-auto mb-6 text-gray-400 group-hover:text-black dark:group-hover:text-white transition-colors duration-300" />
                     {/* Custom Floating Color for Github Icon on Hover */}
