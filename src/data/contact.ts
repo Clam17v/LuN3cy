@@ -31,10 +31,10 @@ export const CONTACT_DATA: Record<Language, ContactContent> = {
     hello: "你好 ;-)",
     intro: "欢迎探讨与合作。",
     socials: {
-      wechat: "Calm17v的实验房",
-      xiaohongshu: "Calm17v",
-      bilibili: "Calm17v",
-      px500: "Calm17v"
+      wechat: "",
+      xiaohongshu: "",
+      bilibili: "",
+      px500: ""
     },
     githubLabel: "GitHub",
     footerDesign: "Powered by Gemini 3 Pro"
