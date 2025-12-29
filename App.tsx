@@ -471,6 +471,7 @@ function App() {
                  {/* Socials - Xiaohongshu */}
                  <div 
                     className="block p-12 border-2 border-gray-100 dark:border-gray-800 rounded-[2rem] hover:border-[#EC4048] transition-colors duration-300 group relative"
+                   
                     onMouseEnter={(e) => {
                        const tooltip = document.getElementById('red-tooltip');
                        if (tooltip) {
