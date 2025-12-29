@@ -407,7 +407,7 @@ function App() {
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                 {/* Email */}
+                  {/* Email */}
                   <div className="block p-12 border-2 border-gray-100 dark:border-gray-800 rounded-[2rem] group cursor-default hover:border-orange-500 transition-colors duration-300">
                      <Mail size={48} className="mx-auto mb-6 text-gray-400 group-hover:text-orange-500 transition-colors duration-300" />
                      <h3 className="text-2xl font-bold mb-2 text-black dark:text-white transition-colors duration-300">
@@ -418,10 +418,9 @@ function App() {
                      </p>
                   </div>
 
-                 {/* Socials - WeChat */}
-                 <div 
-                    className="block p-12 border-2 border-gray-100 dark:border-gray-800 rounded-[2rem] hover:border-[#07C160] transition-colors duration-300 group cursor-pointer relative"
-                    onClick={() => window.open('')}
+                  {/* Socials - WeChat (已去除点击跳转) */}
+                  <div 
+                    className="block p-12 border-2 border-gray-100 dark:border-gray-800 rounded-[2rem] hover:border-[#07C160] transition-colors duration-300 group cursor-default relative"
                     onMouseEnter={(e) => {
                        const tooltip = document.getElementById('wechat-tooltip');
                        if (tooltip) {
@@ -446,32 +445,31 @@ function App() {
                           tooltip.style.transform = 'scale(0.95) translateY(10px)';
                        }
                     }}
-                 >
-                    <MessageSquare size={48} className="mx-auto mb-6 text-gray-400 group-hover:text-[#07C160] transition-colors duration-300" />
-                    <h3 className="text-2xl font-bold mb-2 text-black dark:text-white transition-colors duration-300">
-                      {language === 'zh' ? '公众号' : 'WeChat'}
-                    </h3>
-                    <p className="text-lg opacity-70 text-gray-500 dark:text-gray-400 transition-colors duration-300">
-                      {content.socials?.wechat || 'Calm17v'}
-                    </p>
-                    
-                    {/* Glassmorphism Tooltip */}
-                    <div 
-                       id="wechat-tooltip"
-                       className="absolute z-50 w-64 h-32 bg-white/60 dark:bg-black/60 backdrop-blur-xl border border-white/40 dark:border-white/10 rounded-2xl shadow-2xl pointer-events-none transition-all duration-200 opacity-0 transform scale-95 translate-y-2 overflow-hidden flex items-center justify-center"
-                       style={{ top: 0, left: 0 }}
-                    >
-                       <p className="text-sm font-bold text-black dark:text-white opacity-80 px-4 text-center">
+                  >
+                     <MessageSquare size={48} className="mx-auto mb-6 text-gray-400 group-hover:text-[#07C160] transition-colors duration-300" />
+                     <h3 className="text-2xl font-bold mb-2 text-black dark:text-white transition-colors duration-300">
+                       {language === 'zh' ? '公众号' : 'WeChat'}
+                     </h3>
+                     <p className="text-lg opacity-70 text-gray-500 dark:text-gray-400 transition-colors duration-300">
+                       {content.socials?.wechat || 'Calm17v'}
+                     </p>
+                     
+                     {/* Glassmorphism Tooltip */}
+                     <div 
+                        id="wechat-tooltip"
+                        className="absolute z-50 w-64 h-32 bg-white/60 dark:bg-black/60 backdrop-blur-xl border border-white/40 dark:border-white/10 rounded-2xl shadow-2xl pointer-events-none transition-all duration-200 opacity-0 transform scale-95 translate-y-2 overflow-hidden flex items-center justify-center"
+                        style={{ top: 0, left: 0 }}
+                     >
+                        <p className="text-sm font-bold text-black dark:text-white opacity-80 px-4 text-center">
                           Click to view profile<br/>
                           <span className="text-xs opacity-50 font-mono">mp.weixin.qq.com</span>
-                       </p>
-                    </div>
-                 </div>
+                        </p>
+                     </div>
+                  </div>
 
-                 {/* Socials - Xiaohongshu */}
-                 <div 
-                    className="block p-12 border-2 border-gray-100 dark:border-gray-800 rounded-[2rem] hover:border-[#EC4048] transition-colors duration-300 group relative"
-                   
+                  {/* Socials - Xiaohongshu (已去除点击跳转) */}
+                  <div 
+                    className="block p-12 border-2 border-gray-100 dark:border-gray-800 rounded-[2rem] hover:border-[#EC4048] transition-colors duration-300 group relative cursor-default"
                     onMouseEnter={(e) => {
                        const tooltip = document.getElementById('red-tooltip');
                        if (tooltip) {
@@ -496,32 +494,31 @@ function App() {
                           tooltip.style.transform = 'scale(0.95) translateY(10px)';
                        }
                     }}
-                 >
-                    <Instagram size={48} className="mx-auto mb-6 text-gray-400 group-hover:text-[#EC4048] transition-colors duration-300" />
-                    <h3 className="text-2xl font-bold mb-2 text-black dark:text-white transition-colors duration-300">
-                      {language === 'zh' ? '小红书' : 'RED'}
-                    </h3>
-                    <p className="text-lg opacity-70 text-gray-500 dark:text-gray-400 transition-colors duration-300">
-                      {content.socials?.xiaohongshu || 'Calm17v'}
-                    </p>
+                  >
+                     <Instagram size={48} className="mx-auto mb-6 text-gray-400 group-hover:text-[#EC4048] transition-colors duration-300" />
+                     <h3 className="text-2xl font-bold mb-2 text-black dark:text-white transition-colors duration-300">
+                       {language === 'zh' ? '小红书' : 'RED'}
+                     </h3>
+                     <p className="text-lg opacity-70 text-gray-500 dark:text-gray-400 transition-colors duration-300">
+                       {content.socials?.xiaohongshu || 'Calm17v'}
+                     </p>
 
-                    {/* Glassmorphism Tooltip */}
-                    <div 
-                       id="red-tooltip"
-                       className="absolute z-50 w-64 h-32 bg-white/60 dark:bg-black/60 backdrop-blur-xl border border-white/40 dark:border-white/10 rounded-2xl shadow-2xl pointer-events-none transition-all duration-200 opacity-0 transform scale-95 translate-y-2 overflow-hidden flex items-center justify-center"
-                       style={{ top: 0, left: 0 }}
-                    >
-                       <p className="text-sm font-bold text-black dark:text-white opacity-80 px-4 text-center">
+                     {/* Glassmorphism Tooltip */}
+                     <div 
+                        id="red-tooltip"
+                        className="absolute z-50 w-64 h-32 bg-white/60 dark:bg-black/60 backdrop-blur-xl border border-white/40 dark:border-white/10 rounded-2xl shadow-2xl pointer-events-none transition-all duration-200 opacity-0 transform scale-95 translate-y-2 overflow-hidden flex items-center justify-center"
+                        style={{ top: 0, left: 0 }}
+                     >
+                        <p className="text-sm font-bold text-black dark:text-white opacity-80 px-4 text-center">
                           Click to view profile<br/>
                           <span className="text-xs opacity-50 font-mono">xiaohongshu.com</span>
-                       </p>
-                    </div>
-                 </div>
+                        </p>
+                     </div>
+                  </div>
 
-                 {/* Socials - Bilibili */}
-                 <div 
-                    className="block p-12 border-2 border-gray-100 dark:border-gray-800 rounded-[2rem] hover:border-[#00AEEC] transition-colors duration-300 group cursor-pointer relative"
-                    onClick={() => window.open('')}
+                  {/* Socials - Bilibili (已去除点击跳转) */}
+                  <div 
+                    className="block p-12 border-2 border-gray-100 dark:border-gray-800 rounded-[2rem] hover:border-[#00AEEC] transition-colors duration-300 group cursor-default relative"
                     onMouseEnter={(e) => {
                        const tooltip = document.getElementById('bili-tooltip');
                        if (tooltip) {
@@ -546,32 +543,31 @@ function App() {
                           tooltip.style.transform = 'scale(0.95) translateY(10px)';
                        }
                     }}
-                 >
-                    <Youtube size={48} className="mx-auto mb-6 text-gray-400 group-hover:text-[#00AEEC] transition-colors duration-300" />
-                    <h3 className="text-2xl font-bold mb-2 text-black dark:text-white transition-colors duration-300">
-                      Bilibili
-                    </h3>
-                    <p className="text-lg opacity-70 text-gray-500 dark:text-gray-400 transition-colors duration-300">
-                      {content.socials?.bilibili || 'Calm17v'}
-                    </p>
+                  >
+                     <Youtube size={48} className="mx-auto mb-6 text-gray-400 group-hover:text-[#00AEEC] transition-colors duration-300" />
+                     <h3 className="text-2xl font-bold mb-2 text-black dark:text-white transition-colors duration-300">
+                       Bilibili
+                     </h3>
+                     <p className="text-lg opacity-70 text-gray-500 dark:text-gray-400 transition-colors duration-300">
+                       {content.socials?.bilibili || 'Calm17v'}
+                     </p>
 
-                    {/* Glassmorphism Tooltip */}
-                    <div 
-                       id="bili-tooltip"
-                       className="absolute z-50 w-64 h-32 bg-white/60 dark:bg-black/60 backdrop-blur-xl border border-white/40 dark:border-white/10 rounded-2xl shadow-2xl pointer-events-none transition-all duration-200 opacity-0 transform scale-95 translate-y-2 overflow-hidden flex items-center justify-center"
-                       style={{ top: 0, left: 0 }}
-                    >
-                       <p className="text-sm font-bold text-black dark:text-white opacity-80 px-4 text-center">
+                     {/* Glassmorphism Tooltip */}
+                     <div 
+                        id="bili-tooltip"
+                        className="absolute z-50 w-64 h-32 bg-white/60 dark:bg-black/60 backdrop-blur-xl border border-white/40 dark:border-white/10 rounded-2xl shadow-2xl pointer-events-none transition-all duration-200 opacity-0 transform scale-95 translate-y-2 overflow-hidden flex items-center justify-center"
+                        style={{ top: 0, left: 0 }}
+                     >
+                        <p className="text-sm font-bold text-black dark:text-white opacity-80 px-4 text-center">
                           Click to view profile<br/>
                           <span className="text-xs opacity-50 font-mono">b23.tv/XNNX02Q</span>
-                       </p>
-                    </div>
-                 </div>
+                        </p>
+                     </div>
+                  </div>
 
-                 {/* Socials - 500px */}
-                 <div 
-                    className="block p-12 border-2 border-gray-100 dark:border-gray-800 rounded-[2rem] hover:border-black dark:hover:border-white transition-colors duration-300 group cursor-pointer relative"
-                    onClick={() => window.open('、')}
+                  {/* Socials - 500px (已去除点击跳转) */}
+                  <div 
+                    className="block p-12 border-2 border-gray-100 dark:border-gray-800 rounded-[2rem] hover:border-black dark:hover:border-white transition-colors duration-300 group cursor-default relative"
                     onMouseEnter={(e) => {
                        const tooltip = document.getElementById('px-tooltip');
                        if (tooltip) {
@@ -596,48 +592,47 @@ function App() {
                           tooltip.style.transform = 'scale(0.95) translateY(10px)';
                        }
                     }}
-                 >
-                    <Aperture size={48} className="mx-auto mb-6 text-gray-400 group-hover:text-black dark:group-hover:text-white transition-colors duration-300" />
-                    <h3 className="text-2xl font-bold mb-2 text-black dark:text-white transition-colors duration-300">
-                      500px
-                    </h3>
-                    <p className="text-lg opacity-70 text-gray-500 dark:text-gray-400 transition-colors duration-300">
-                      {content.socials?.px500 || 'Calm17v'}
-                    </p>
+                  >
+                     <Aperture size={48} className="mx-auto mb-6 text-gray-400 group-hover:text-black dark:group-hover:text-white transition-colors duration-300" />
+                     <h3 className="text-2xl font-bold mb-2 text-black dark:text-white transition-colors duration-300">
+                       500px
+                     </h3>
+                     <p className="text-lg opacity-70 text-gray-500 dark:text-gray-400 transition-colors duration-300">
+                       {content.socials?.px500 || 'Calm17v'}
+                     </p>
 
-                    {/* Glassmorphism Tooltip */}
-                    <div 
-                       id="px-tooltip"
-                       className="absolute z-50 w-64 h-32 bg-white/60 dark:bg-black/60 backdrop-blur-xl border border-white/40 dark:border-white/10 rounded-2xl shadow-2xl pointer-events-none transition-all duration-200 opacity-0 transform scale-95 translate-y-2 overflow-hidden flex items-center justify-center"
-                       style={{ top: 0, left: 0 }}
-                    >
-                       <p className="text-sm font-bold text-black dark:text-white opacity-80 px-4 text-center">
+                     {/* Glassmorphism Tooltip */}
+                     <div 
+                        id="px-tooltip"
+                        className="absolute z-50 w-64 h-32 bg-white/60 dark:bg-black/60 backdrop-blur-xl border border-white/40 dark:border-white/10 rounded-2xl shadow-2xl pointer-events-none transition-all duration-200 opacity-0 transform scale-95 translate-y-2 overflow-hidden flex items-center justify-center"
+                        style={{ top: 0, left: 0 }}
+                     >
+                        <p className="text-sm font-bold text-black dark:text-white opacity-80 px-4 text-center">
                           Click to view profile<br/>
                           <span className="text-xs opacity-50 font-mono">500px.com.cn</span>
-                       </p>
-                    </div>
-                 </div>
+                        </p>
+                     </div>
+                  </div>
 
-                 {/* GitHub */}
-                 <div 
-                    className="block p-12 border-2 border-gray-100 dark:border-gray-800 rounded-[2rem] relative group cursor-pointer hover:border-black dark:hover:border-white transition-colors duration-300"
-                    onClick={() => window.open('')}
-                 >
-                    <Github size={48} className="mx-auto mb-6 text-gray-400 group-hover:text-black dark:group-hover:text-white transition-colors duration-300" />
-                    {/* Custom Floating Color for Github Icon on Hover */}
-                    <style>{`
-                      .group:hover .text-gray-400.group-hover\\:text-black { color: #0D1932 !important; }
-                      .dark .group:hover .text-gray-400.dark\\:group-hover\\:text-white { color: #0D1932 !important; }
-                      .group:hover.hover\\:border-black { border-color: #0D1932 !important; }
-                      .dark .group:hover.dark\\:hover\\:border-white { border-color: #0D1932 !important; }
-                    `}</style>
-                    <h3 className="text-2xl font-bold mb-2 text-black dark:text-white transition-colors duration-300">
-                      {content.githubLabel}
-                    </h3>
-                    <p className="text-lg opacity-70 text-gray-500 dark:text-gray-400 transition-colors duration-300">
-                      @Calm17v
-                    </p>
-                 </div>
+                  {/* GitHub (已去除点击跳转，如果你需要GitHub能点，请告诉我加回去) */}
+                  <div 
+                    className="block p-12 border-2 border-gray-100 dark:border-gray-800 rounded-[2rem] relative group cursor-default hover:border-black dark:hover:border-white transition-colors duration-300"
+                  >
+                     <Github size={48} className="mx-auto mb-6 text-gray-400 group-hover:text-black dark:group-hover:text-white transition-colors duration-300" />
+                     {/* Custom Floating Color for Github Icon on Hover */}
+                     <style>{`
+                       .group:hover .text-gray-400.group-hover\\:text-black { color: #0D1932 !important; }
+                       .dark .group:hover .text-gray-400.dark\\:group-hover\\:text-white { color: #0D1932 !important; }
+                       .group:hover.hover\\:border-black { border-color: #0D1932 !important; }
+                       .dark .group:hover.dark\\:hover\\:border-white { border-color: #0D1932 !important; }
+                     `}</style>
+                     <h3 className="text-2xl font-bold mb-2 text-black dark:text-white transition-colors duration-300">
+                       {content.githubLabel}
+                     </h3>
+                     <p className="text-lg opacity-70 text-gray-500 dark:text-gray-400 transition-colors duration-300">
+                       @Calm17v
+                     </p>
+                  </div>
               </div>
            </div>
         )
