@@ -1,12 +1,12 @@
 import { Language } from '../../types';
 
-export const NAV_ITEMS: Record<Language, { id: string; label: string }[]> = {
+export const NAV_ITEMS = {
   zh: [
     { id: 'dashboard', label: '主页' },
-    { id: 'portfolio', label: '作品' },
+    { id: 'portfolio', label: '作品' }
   ],
   en: [
     { id: 'dashboard', label: 'Home' },
-    { id: 'portfolio', label: 'Portfolio' },
+    { id: 'portfolio', label: 'Portfolio' }
   ]
 };
