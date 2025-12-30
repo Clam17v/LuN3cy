@@ -25,7 +25,6 @@ export const CONTACT_DATA: Record<Language, ContactContent> = {
   zh: {
     baseLabel: "BASE",
     locationValue: "浙江，杭州/宁波",
-    contactLabel: "取得联系",
     emailMeLabel: "邮箱",
     email: "calm17v@163.com",
     hello: "你好 ;-)",
