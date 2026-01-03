@@ -7,9 +7,9 @@ export const CATEGORY_LABELS: Record<Language, Record<string, string>> = {
   zh: {
     'All': '全部',
     'Videography': '电商应用', // Renamed
-    'Graphics & UI': '人物系列',
-    'Photography': 'lora训练', // Renamed
-    'Development': 'ai视频'
+    'Graphics & UI': '视觉设计',
+    'Photography': '模型训练', // Renamed
+    'Development': '视频制作'
   },
   en: {
     'All': 'All',
