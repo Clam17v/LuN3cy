@@ -17,8 +17,8 @@ export const HOME_DATA: Record<Language, HomeContent> = {
   zh: {
     heroItems: [
       { text: "平面设计", annotation: "（Graphic Design）", category: Category.VIDEO },
-      { text: "LORA训练", annotation: "（LORA Training）", category: Category.DESIGN },
-      { text: "AI视频", annotation: "（AI video）", category: Category.DEV },
+      { text: "模型训练", annotation: "（LORA Training）", category: Category.DESIGN },
+      { text: "视频制作", annotation: "（video）", category: Category.DEV },
       { text: "炒粉炒饭", annotation: "（还在学）", category: null }
     ],
     intro: "设计不止于解决问题，是进一步要把问题解决的更好；|设计不至于满足需求，还需令人有更美好的满足。",
