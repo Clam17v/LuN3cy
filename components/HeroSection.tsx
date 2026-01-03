@@ -16,7 +16,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate, onCategory
   const content = HOME_DATA[language];
   const contactContent = CONTACT_DATA[language];
   const tooltipText = contactContent.tooltip || (language === 'zh' 
-    ? '还是想念武汉，但感觉之后可能也留在广深' 
+    ? '人类只是我的兼职' 
     : 'Still miss Wuhan, but likely to stay in Guangzhou-Shenzhen later.');
   const heroItems = content.heroItems || [];
   const [showToast, setShowToast] = useState(false);
@@ -104,12 +104,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate, onCategory
                </div>
 
                {/* Contact - Green Text */}
-               <div onClick={() => onNavigate('contact')} className="cursor-pointer group flex items-center gap-3">
-                 <span className="text-2xl lg:text-3xl text-[#00D26A] transition-transform duration-300 group-hover:translate-x-1">→</span>
-                 <h3 className="text-2xl lg:text-3xl font-bold mb-0 text-[#00D26A] transition-colors duration-300 group-hover:opacity-80">
-                    {contactContent.contactLabel}
-                 </h3>
-               </div>
+               
             </div>
           </div>
 
