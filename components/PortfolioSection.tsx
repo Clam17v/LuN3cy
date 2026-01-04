@@ -144,7 +144,7 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ language, ex
             onClick={() => setSelectedProject(project)}
           >
             
-            {project.category === Category.DEV ? (
+            {project.category === Category.DEV && !project.image ? (
                // DEV CARD LAYOUT
                <div className="flex flex-col h-full">
                   <div className="mb-6 w-16 h-16 bg-white dark:bg-black rounded-2xl shadow-sm flex items-center justify-center text-black dark:text-white">
