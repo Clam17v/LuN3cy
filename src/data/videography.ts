@@ -155,8 +155,8 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     },
     zh: {
       title: '3D建模',
-      subtitle: '平面设计',
-      description: 'C4D',
+      subtitle: 'c4d',
+      description: '',
       role: '视频制作',
       tags: ['毕业晚会', '串场视频'],
       awards: [],
