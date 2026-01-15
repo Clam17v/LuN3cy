@@ -7,8 +7,8 @@ export const DEV_DATA: Project[] = [
     common: {
       // 🔴 关键修改 2：如果是平面设计，建议 Category 改为 Design 或保持 Videography
       category: 'Development', 
-      image: '/qiche.png', 
-      modalImage: '/qiche1.png',
+      image: '/qiche.jpg', 
+      modalImage: '/qiche1.jpg',
       // 如果不是视频，可以去掉 bilibiliId，或者保留留空
       bilibiliId: '' 
     },

@@ -5,8 +5,8 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v1',
     common: {
       category: 'Videography',
-      image: '/daguangrongtu.png',
-      modalImage: '/daguang.png',
+      image: '/daguangrongtu.jpg',
+      modalImage: '/daguang.jpg',
       bilibiliId: 'BV1KD2iYBEjF'
     },
     zh: {
@@ -34,8 +34,8 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v2',
     common: {
       category: 'Videography',
-      image: '/motetihuan.png',
-      modalImage: '/tihuan.png',
+      image: '/motetihuan.jpg',
+      modalImage: '/tihuan.jpg',
       bilibiliId: 'BV1U24y1T7DP'
     },
     zh: {
@@ -63,8 +63,8 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v3',
     common: {
       category: 'Videography',
-      image: '/shijiao1.png',
-      modalImage: '/shijiao.png',
+      image: '/shijiao1.jpg',
+      modalImage: '/shijiao.jpg',
       bilibiliId: 'BV1We41117v8'
     },
     zh: {
@@ -92,8 +92,8 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v4',
     common: {
       category: 'Videography',
-      image: '/ipsheji.png',
-      modalImage: '/ipsheji1.png',
+      image: '/ipsheji.jpg',
+      modalImage: '/ipsheji1.jpg',
     },
     zh: {
       title: '星际探险家IP设计',
@@ -120,8 +120,8 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v5',
     common: {
       category: 'Videography',
-      image: '/shengdankv.png', 
-      modalImage: '/shengdankv1.png',
+      image: '/shengdankv.jpg', 
+      modalImage: '/shengdankv1.jpg',
       bilibiliId: 'BV1WZ2xBaEjC'
     },
     zh: {
@@ -150,7 +150,7 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     common: {
       category: 'Videography',
       image: '/jingmian.jpg', 
-      modalImage: '/3dlei.png',
+      modalImage: '/3dlei.jpg',
       bilibiliId: 'BV1J5S7B6ECM'
     },
     zh: {

@@ -5,8 +5,8 @@ export const DESIGN_DATA: Project[] = [
     id: 'd1',
     common: {
       category: 'Graphics & UI',
-      image: '/kongzhi.png', 
-      modalImage: '/kongzhi1.png',
+      image: '/kongzhi.jpg', 
+      modalImage: '/kongzhi1.jpg',
       gallery: [
         'https://picsum.photos/800/600?random=11',
         'https://picsum.photos/800/600?random=12',
@@ -38,8 +38,8 @@ export const DESIGN_DATA: Project[] = [
     id: 'd2',
     common: {
       category: 'Graphics & UI',
-      image: '/kv1.png', 
-      modalImage: '/KV.png',
+      image: '/kv1.jpg', 
+      modalImage: '/KV.jpg',
       gallery: [
         'https://picsum.photos/800/600?random=11',
         'https://picsum.photos/800/600?random=12',
