@@ -63,8 +63,8 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v3',
     common: {
       category: 'Videography',
-      image: '/shijiao1.jpg',
-      modalImage: '/shijiao.jpg',
+      image: '/chanpintihuan1.jpg',
+      modalImage: '/chanpintihuan.jpg',
       bilibiliId: 'BV1We41117v8'
     },
     zh: {
@@ -96,13 +96,13 @@ export const VIDEOGRAPHY_DATA: Project[] = [
       modalImage: '/ipsheji1.jpg',
     },
     zh: {
-      title: '星际探险家IP设计',
+      title: 'AI模特单肩包替换',
       subtitle: '平面设计',
-      description: '“当浩瀚宇宙遇上稚嫩好奇，孤独便化作了彩色的糖衣。”',
+      description: '在保持模特表情姿势不变的情况下替换产品。',
       role: '摄影、调色',
       tags: ['微电影', '青春', '文旅'],
       awards: ["暂无获奖"],
-      concept: "灵感最初源于对“安全感”的视觉化探索。宇宙通常是冰冷深邃的（蓝紫色调），而设计特意选用了高饱和度的**“暖绒黄” (Dandelion Yellow)** 作为宇航服主色。这就像是在无尽的黑夜里点亮了一盏行走的小夜灯，象征着童心是抵御未知的最强铠甲。",
+      concept: "AIGC可帮助企业节省85%以上的拍摄与3D建模成本，实现同一模特场景光影环境下快速切换多视角，解决传统摄影中模特档期、场地租赁等高成本痛点。",
       roleDetail: "独立完成全片摄影与后期调色工作。"
     },
     en: {
@@ -172,6 +172,34 @@ export const VIDEOGRAPHY_DATA: Project[] = [
       awards: [],
       concept: "",
       roleDetail: ""
+    }
+  },
+  {
+    id: 'v7',
+    common: {
+      category: 'Videography',
+      image: '/ipsheji.jpg',
+      modalImage: '/ipsheji1.jpg',
+    },
+    zh: {
+      title: '星际探险家IP设计',
+      subtitle: '平面设计',
+      description: '“当浩瀚宇宙遇上稚嫩好奇，孤独便化作了彩色的糖衣。”',
+      role: '摄影、调色',
+      tags: ['微电影', '青春', '文旅'],
+      awards: ["暂无获奖"],
+      concept: "灵感最初源于对“安全感”的视觉化探索。宇宙通常是冰冷深邃的（蓝紫色调），而设计特意选用了高饱和度的**“暖绒黄” (Dandelion Yellow)** 作为宇航服主色。这就像是在无尽的黑夜里点亮了一盏行走的小夜灯，象征着童心是抵御未知的最强铠甲。",
+      roleDetail: "独立完成全片摄影与后期调色工作。"
+    },
+    en: {
+      title: 'Miss You',
+      subtitle: 'Micro Film',
+      description: 'A youth drama micro-film, primarily showcasing the beautiful scenery of Wuhan city.',
+      role: 'Cinematographer, Colorist',
+      tags: ['Micro Film', 'Youth', 'Cultural Tourism'],
+      awards: ["None"],
+      concept: "The core of this film lies in the 'interaction between people and the environment', aiming to showcase the scenery of Wuhan. The challenge was how to naturally express the beauty of the environment without making it feel like a 'landmark tour'. I used a larger aperture lens for stronger bokeh to separate subjects from the background, while the 50mm focal length maintained realistic perspective. Natural light was used throughout for natural emotional expression, and the color grading mimics film tones.",
+      roleDetail: "Independently completed the entire cinematography and post-production color grading."
     }
   },
 ];
