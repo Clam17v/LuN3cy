@@ -178,6 +178,34 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v7',
     common: {
       category: 'Videography',
+      image: '/rixijiaju.jpg',
+      modalImage: '/rixijiaju1.jpg',
+    },
+    zh: {
+      title: '日系家具详情页',
+      subtitle: '平面设计',
+      description: '',
+      role: '摄影、调色',
+      tags: ['微电影', '青春', '文旅'],
+      awards: ["暂无获奖"],
+      concept: "实木家具",
+      roleDetail: "独立完成全片摄影与后期调色工作。"
+    },
+    en: {
+      title: 'Miss You',
+      subtitle: 'Micro Film',
+      description: 'A youth drama micro-film, primarily showcasing the beautiful scenery of Wuhan city.',
+      role: 'Cinematographer, Colorist',
+      tags: ['Micro Film', 'Youth', 'Cultural Tourism'],
+      awards: ["None"],
+      concept: "The core of this film lies in the 'interaction between people and the environment', aiming to showcase the scenery of Wuhan. The challenge was how to naturally express the beauty of the environment without making it feel like a 'landmark tour'. I used a larger aperture lens for stronger bokeh to separate subjects from the background, while the 50mm focal length maintained realistic perspective. Natural light was used throughout for natural emotional expression, and the color grading mimics film tones.",
+      roleDetail: "Independently completed the entire cinematography and post-production color grading."
+    }
+  },
+  {
+    id: 'v8',
+    common: {
+      category: 'Videography',
       image: '/ipsheji.jpg',
       modalImage: '/ipsheji1.jpg',
     },
