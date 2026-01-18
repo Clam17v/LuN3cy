@@ -63,8 +63,8 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v3',
     common: {
       category: 'Videography',
-      image: '/chanpintihuan1.jpg',
-      modalImage: '/chanpintihuan.jpg',
+      image: '/shijiao1.jpg',
+      modalImage: '/shijiao.jpg',
       bilibiliId: 'BV1We41117v8'
     },
     zh: {
@@ -92,8 +92,8 @@ export const VIDEOGRAPHY_DATA: Project[] = [
     id: 'v4',
     common: {
       category: 'Videography',
-      image: '/ipsheji.jpg',
-      modalImage: '/ipsheji1.jpg',
+      image: '/chanpintihuan1.jpg',
+      modalImage: '/chanpintihuan.jpg',
     },
     zh: {
       title: 'AI模特单肩包替换',
